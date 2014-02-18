@@ -1,0 +1,5 @@
+C:\Users\RobertCOwell\Documents\Visual Studio 2012\Projects\AngularLab\AngularLab\bin\AngularLab.dll
+C:\Users\RobertCOwell\Documents\Visual Studio 2012\Projects\AngularLab\AngularLab\bin\AngularLab.pdb
+C:\Users\RobertCOwell\Documents\Visual Studio 2012\Projects\AngularLab\AngularLab\obj\Debug\AngularLab.csprojResolveAssemblyReference.cache
+C:\Users\RobertCOwell\Documents\Visual Studio 2012\Projects\AngularLab\AngularLab\obj\Debug\AngularLab.dll
+C:\Users\RobertCOwell\Documents\Visual Studio 2012\Projects\AngularLab\AngularLab\obj\Debug\AngularLab.pdb

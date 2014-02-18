@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<!-- An Angular directive is declared everytime you see'ng-' in the code, in this case we are making a new app-->
+<!-- Order of execution is : AppConfig.js, SimpleController.js, and then the factory methods being called -->
+<html ng-app="demoApp">
+<head>
+    <title>Using AngularJS Directives and Data Binding</title>
+</head>
+<body>
+    <div>
+        <!--Placeholder for views-->
+        <div ng-view></div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.9/angular.min.js"></script>
+    <script src="http://code.angularjs.org/1.2.0rc1/angular-route.min.js"></script>
+    <script>
+
+        //The array is for dependencies, pass in a the name of the required module.
+        //Declare a new angular module (moduleName, dependent/additional Module Name)
+        var demoApp = angular.module('demoApp', ['ngRoute']);
+
+    </script>
+    <script src="/App/AppConfig.js"></script>
+    <script src="/App/Factories.js"></script>
+    <script src="/App/Controllers/SimpleController.js"></script>
+</body>
+</html>
